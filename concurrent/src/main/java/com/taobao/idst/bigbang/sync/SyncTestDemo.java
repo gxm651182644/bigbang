@@ -15,7 +15,7 @@ public class SyncTestDemo {
 
     }
 
-    private synchronized void method2() {
+    private void method2() {
         synchronized (lock1) {
             try {
                 Thread.sleep(1);
